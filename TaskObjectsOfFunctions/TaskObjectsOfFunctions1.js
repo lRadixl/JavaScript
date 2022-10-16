@@ -4,7 +4,7 @@ function createUser(manufacturer, model, weight) {
     model: model,
     weight: weight,
     displayInfo: function () {
-        console.log("Manufacturer: " + this.name + ", model: " + this.age + ", weight:" + this.weight + "g");
+        console.log("Manufacturer: " + this.manufacturer + ", model: " + this.model + ", weight:" + this.weight + "g");
         }
     
     };
