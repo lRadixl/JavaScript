@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart House</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <h1>Лампа 1</h1>
+        <h1 id="lamp1ID" style="margin-left: 20px; color: red;"></h1>
+        <button id="lamp1Btn" value="OFF" onclick="lamp1Switch()">Увімкнути</button>
+    </div>
+    <div style="display: flex;">
+        <h1>Лампа 2</h1>
+        <h1 id="lamp2ID" style="margin-left: 20px; color: red;"></h1>
+        <button id="lamp2Btn" value="OFF" onclick="lamp2Switch()">Увімкнути</button>
+    </div>
+</div>
+    <div style="display: flex;">
+        <h1>Телевізор</h1>
+        <h1 id="TVID" style="margin-left: 20px; color: red;"></h1>
+        <button id="TVpowBtn" value="OFF" onclick="TVSwitch()">Увімкнути</button>
+    </div>
+    <button onclick="VolClk()">Встановити гучність</button>
+    <script src="smarthoh.js"></script>
+</body>
+</html>
